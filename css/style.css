@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  font-style: none; }
+
+body, html, .box {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-size: 0.32rem;
+  background: #ccc; }
+
+.box {
+  display: flex;
+  flex-direction: column; }
+
+.dls dl, .dls dl dt, .footer, .footer dl, .footer dl dt {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.header {
+  width: 100%;
+  height: 60px; }
+  .header p {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #46d265;
+    color: #fff;
+    font-size: 0.5rem; }
+
+.section {
+  width: 100%;
+  flex: 1;
+  overflow: hidden;
+  overflow-y: scroll; }
+  .section .container {
+    width: 100%;
+    height: 3.5rem;
+    background: #ccc; }
+
+.container .slide {
+  width: 100%;
+  height: 3.5rem; }
+  .container .slide img {
+    width: 100%;
+    height: 100%; }
+
+.container .swiper-pagination-progress .swiper-pagination-progressbar {
+  top: 171px;
+  background: #47d464; }
+
+.dls {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  background: #fff;
+  padding-top: 10px; }
+  .dls dl {
+    width: 25%;
+    height: 1.5rem;
+    flex-direction: column;
+    padding-top: 15px; }
+    .dls dl dt {
+      flex: 1.5;
+      font-size: 0.8rem;
+      border-radius: 50%;
+      background: orange;
+      padding: 10px;
+      color: #fff; }
+    .dls dl dd {
+      margin-top: 10px;
+      flex: 1; }
+
+.ss {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap; }
+  .ss dl {
+    height: 1.5rem;
+    width: 48%;
+    background: #fff;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 4%; }
+    .ss dl:nth-child(odd) {
+      margin-left: 0; }
+    .ss dl:nth-child(2n) dd p:nth-child(1) {
+      color: #80b9c2; }
+    .ss dl dt {
+      flex: 1; }
+      .ss dl dt img {
+        width: 100%;
+        height: 100%; }
+    .ss dl dd {
+      padding-top: 6px;
+      flex: 1.5;
+      line-height: 0.6rem; }
+      .ss dl dd p:nth-child(1) {
+        color: red;
+        text-indent: 10px; }
+      .ss dl dd p:nth-child(2) {
+        color: #ccc;
+        text-indent: 10px; }
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background: #f9f9f9;
+  border-top: 1px solid #ccc; }
+  .footer dl {
+    height: 60px;
+    flex: 1;
+    flex-direction: column; }
+    .footer dl dt {
+      font-size: 0.6rem;
+      flex: 1.5; }
+    .footer dl dd {
+      flex: 1; }
+    .footer dl .bg {
+      color: #46d265; }
+
+/*# sourceMappingURL=style.css.map */
